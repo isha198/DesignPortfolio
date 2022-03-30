@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Isha Patel</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggler">
+          <div class="bar half start"></div>
+          <div class="bar"></div>
+          <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="landing-text">
+          <h1>Isha Patel</h1>
+          <h6>UI | UX Designer</h6>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="images/profile.jpeg" alt="">
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Myself</h6>
+          </div>
+          <p>
+            Hi, I’m Isha, an aspiring User Interface and User Experience designer.
+            I am an ambitious individual with a passion for technology, learning, and innovation.
+            Growing up, the emerging new technologies around the world fascinated me and I found myself
+            gravitating towards learning to code on my own. I’m also passionate about design and enjoy
+            creating user-centric experiences. I graduated from the University of Auckland with a
+            Bachelor of Commerce degree majoring in Information Systems and Business Analytics.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="https://www.linkedin.com/in/ishapatel3/" target="_blank" class="icon-link">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://dribbble.com/isha198" target="_blank" class="icon-link">
+                  <i class="fab fa-dribbble-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/isha198" target="_blank" class="icon-link">
+                  <i class="fab fa-github-square"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Portfolio</h1>
+          <h6>View some of my recent work</h6>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+            <img src="images/Study_Smart.png" alt="">
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+            <h6>UX Design</h6>
+            <h1>Study Smart</h1>
+            <p> Study Smart is an app that I designed as part of my innovation through design course at the University of Auckland.
+              Using the tool Adobe XD, I prototyped an app that helped university students to stay on task while studying for a test
+              in a course they didn’t enjoy. My app incorporated several features including a study planning session using SMART goals,
+              a study timer, a collaboration space with friends, and a study review session. I was able to gather insights about my user
+              and better understand their needs and desires through prototype testing and later incorporated their feedback throughout
+              each stage of the design iteration.
+            </p>
+            <!-- <a href="#" class="cta">View Details</a> -->
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="900">
+            <h6>UX Design</h6>
+            <h1>Daily UI Challenge 001</h1>
+            <p> This is the design I created for the Daily UI Challenge 001 using the tool Figma. The challenge was to create a sign-up page,
+              modal, form, or app screen related to signing up for something.
+            </p>
+            <!-- <a href="#" class="cta">View Details</a> -->
+          </div>
+          <div class="portfolio-img" data-aos="fade-left" data-aos-delay="1200">
+            <img src="images/Login_Page.png" alt="">
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="1500">
+            <img src="images/Credit_Card_Checkout.png" alt="">
+          </div>
+          <div class="portfolio-description" data-aos="fade-left" data-aos-delay="1800">
+            <h6>UX Design</h6>
+            <h1>Daily UI Challenge 002</h1>
+            <p> This is the design I created for the Daily UI Challenge 002 using the tool Figma.
+              The challenge was to design a credit card checkout form or page.
+            </p>
+            <!-- <a href="#" class="cta">View Details</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Contact</h1>
+          <h6>Let's work together</h6>
+        </div>
+        <form action="" data-aos="fade-up" data-aos-delay="300">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email..." required>
+          <label for="message">Message:</label>
+          <textarea name="message" rows="10" cols="10"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+
+    <footer class="copyright">
+      <div class="up" id="up">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+      <p>&copy; 2020 Isha Patel</p>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
